@@ -1,4 +1,4 @@
-/*Realice un programa que lea un valor entero y determine si se trata de un número par o impar.*/
+/*Realice un algoritmo que lea un valor entero y determine si se trata de un número par o impar.*/
 #include<iostream>
 using namespace std;
 int main(){
@@ -15,7 +15,21 @@ int main(){
     if (comprobacion == 0){
         cout<<"el numero ingresado es par";
     }else{
-        cout<<"el numero ingresado es impar";
+        cout<<"el numero ingresado es impar" <<endl;
+    }
+
+    cout<<"********************************************************" <<endl;
+    cout<<"ingrese un numero para evaluar si es positivo o negativo" <<endl; 
+    cout<<"********************************************************" <<endl;
+    float numerodos;
+    cin>>numerodos;
+    if (numerodos < 0){
+        cout<<"el numero ingresado es negativo";
+    }else if(numerodos == 0){
+        cout<<"el numero igresado es cero";
+
+    }else{
+        cout<<"el numero ingresado es positivo";
     }
     return 0;
 }
