@@ -9,8 +9,22 @@ int main(){
     if (edad>= 18 & edad<= 25){
         cout<<"la edad esta dentro del rango ";
     }else{
-        cout<<"la edad no esta en el rango de 18 a 25";
+        cout<<"la edad no esta en el rango de 18 a 25"<<endl;
 
+    }
+    
+    int uno,dos,tres,cuatro;
+    cout<<"ingrese tres numeros" <<endl; cin>>uno; cin>>dos;cin>>tres;
+    cout<<"ingrese un cuarto numero para comparar" <<endl; cin>>cuatro;
+    if (cuatro == uno)
+    {
+        cout<<"el numero ingresado y el numero "<<uno <<" son iguales";
+    } else if(cuatro == dos){
+        cout<<"el numero ingresado y el numero "<<dos <<" son iguales";
+    } else if(cuatro == tres){
+        cout<<"el numero ingresado y el numero "<<dos <<" son iguales";
+    }else {
+        cout<<"el numero ingresado no es igual a ningun numero";
     }
     return 0;
 }
