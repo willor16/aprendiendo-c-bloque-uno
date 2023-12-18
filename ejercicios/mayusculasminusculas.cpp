@@ -4,7 +4,7 @@ Ejercicio 6: Escriba un programa que lea de la entrada estándar un carácter e 
 #include<iostream>
 using namespace std;
 int main(){
-    string letra;
+    char letra;
     cout<<"ingrese una vocal" <<endl; cin>>letra;
     switch (letra)
     {
@@ -14,8 +14,32 @@ int main(){
     case 'A':
         cout<<"la vocal es una mayuscula";
         break;
+    case 'e':
+        cout<<"la vocal es una minuscula";
+        break;
+    case 'E':
+        cout<<"la vocal ingresada es una mayuscula";
+        break;
+    case 'i':
+        cout<<"la vocal ingresada es una mayuscula";
+        break;
+    case 'I':
+        cout<<"la vocal ingresada es una mayuscula";
+        break;
+    case 'o':
+        cout<<"la vocal ingresada es una mayuscula";
+        break;
+    case 'O':
+        cout<<"la vocal ingresada es una mayuscula";
+        break;
+    case 'u':
+        cout<<"la vocal ingresada es una mayuscula";
+        break;
+    case 'U':
+        cout<<"la vocal ingresada es una mayuscula";
+        break;
     default:
-        cout<<"no es una vocal"
+        cout<<"no es una vocal";
         break;
     }
     return 0;
