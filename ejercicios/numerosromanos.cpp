@@ -165,4 +165,5 @@ int main(){
             break;
     }
     return 0;
+    int exe,init,exit;
 }
